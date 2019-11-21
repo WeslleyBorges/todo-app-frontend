@@ -1,6 +1,6 @@
 import React from 'react'
 
-import PageHeader from '../template/pageHeader'
+import PageHeader from '../templates/pageHeader'
 import TodoForm from '../todo/todoForm'
 import TodoList from '../todo/todoList'
 

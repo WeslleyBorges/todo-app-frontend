@@ -1,6 +1,6 @@
 import React from 'react'
 
-import If from '../template/If'
+import If from '../templates/If'
 
 export default props => (
     <If test={!props.hide}>

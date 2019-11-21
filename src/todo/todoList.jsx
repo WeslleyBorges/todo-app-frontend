@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from "redux";
 
-import ButtonIcon from '../template/ButtonIcon'
+import ButtonIcon from '../templates/ButtonIcon'
 import { deleteTodo, togglePendency } from './todoActions'
 
 const TodoList = props => {

@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 
-import Grid from '../template/Grid'
-import ButtonIcon from '../template/ButtonIcon'
+import Grid from '../templates/Grid'
+import ButtonIcon from '../templates/ButtonIcon'
 import { changeDescription, searchTodo, addTodo, cleanDescription } from "./todoActions";
 
 class TodoForm extends Component {
