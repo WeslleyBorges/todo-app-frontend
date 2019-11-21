@@ -4,6 +4,8 @@ import apiUrls from '../consts'
 
 const URL =  `${process.env.PRODUCTION ? apiUrls.API_URL : apiUrls.LOCAL_API_URL}/todos`
 
+console.log('API URL:', URL)
+
 export const changeDescription = event => {
   return {
     type: 'DESCRIPTION_CHANGED',
