@@ -2,9 +2,7 @@ import axios from 'axios'
 
 import apiUrls from '../consts'
 
-const URL =  `${process.env.PRODUCTION ? apiUrls.API_URL : apiUrls.LOCAL_API_URL}/todos`
-
-console.log('API URL:', URL)
+const URL =  `${apiUrls.API_URL}/todos`
 
 export const changeDescription = event => {
   return {
