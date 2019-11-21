@@ -3,13 +3,12 @@ const common = require('./webpack.common.js');
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const path = require('path')
 
-const outPutPath = path.join(__dirname, '../', 'public')
-console.log('OUTPUT PATH:', outPutPath)
+const outputPath = path.join(__dirname, '../', 'public')
 
 module.exports = merge(common, {
   mode: 'production',
-  output: {
-    path: outPutPath,
+  output: {    
+    path: outputPath,
     filename: './app.min.js'
   },
   plugins: [    
